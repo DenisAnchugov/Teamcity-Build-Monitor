@@ -1,0 +1,26 @@
+.build_id {
+	bottom: 0px;
+	position: absolute;
+    z-index: 2;
+}
+
+.buildType_tile {
+	position: relative;
+}
+
+.projects_span {
+	position: relative;
+	display: table-row-group;
+}
+
+#projects-container {
+	position: relative;
+}
+
+.progress-bar {
+    position: absolute !important;
+    bottom: 0px;
+    margin-bottom: 0px !important;
+    z-index: 1;
+}
+
