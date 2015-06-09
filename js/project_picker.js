@@ -3,7 +3,7 @@ var getProjectsURL = "http://localhost:80/guestAuth/app/rest/projects"
 $(document).ready(getProjectList);
 
 function getProjectList(){
-	$.get(getProjectsURL, parseProjectList);		
+	$.get(getProjectsURL, parseProjectList);
 };
 
 var parseProjectList = function(list) {
@@ -25,19 +25,3 @@ var createListElement = function(href, name){
 var appendListElement = function(element){
 	$('#projects').append(element);
 };
-
-
-
-
-
-        public int ScheduleEntityID { get; set; }
-        public int TeacherID { get; set; }
-        public int CourseID { get; set; }
-        public int ClassRoomID { get; set; }
-        public int GroupID { get; set; }
-        public DateTime StartTime { get; set; }
-        public DateTime EndTIme { get; set; }
-        public virtual ClassRoom ClassRoom { get; set; }
-        public virtual Course Cours { get; set; }
-        public virtual Group Group { get; set; }
-        public virtual Teacher Teacher { get; set; }
